@@ -1,0 +1,100 @@
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    background: rgba(5, 51, 26, 0.808);
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    /* aqui vai dar bo */
+}
+
+html.body,#root{
+    height: 100%;
+}
+
+
+/* ==============================================styles */
+
+.body2{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nody3{
+    width: 100%;
+    max-width: 400px;
+    margin: 30px;
+    margin-top: 25%;
+    background: cornsilk;
+    border-radius: 4px;
+    padding: 20px;
+}
+
+.body4{
+    border: 1px dashed #ddd;
+    border-radius: 4px;
+    cursor: pointer;
+
+    transition: height 0.2s ease;
+
+    /* ${props => props.isDragActive && dragActive} */
+    /* ${props => props.isDragActive && dragActive} */
+
+
+    display: flex;
+    /* color: ${props => messageColors[props.type || 'default']}; */
+    justify-content: center;
+    align-items: center;
+    padding: 15px 0;
+
+
+    /* margin-top: 20px;S */
+
+/* 
+    display: flex;
+    align-items: center;
+
+    
+
+    div {
+        display: flex;
+        flex-direction: column; 
+        
+        span{
+            font-size: 12px;
+            color: #999;
+            margin-top: 5px;
+
+            button {
+                border: 0;
+                background: transparent;
+                color: #e57878;
+                margin-left:5px;
+                cursor: pointer;
+            }
+        }
+    } */
+
+
+
+}
+
+/* li {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        color: #444;
+        
+        & + li {
+            margin-top: 15px;
+        }
+} */

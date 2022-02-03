@@ -1,70 +1,50 @@
-# Getting Started with Create React App
+# FRONTEND -- Upload de imagens com Express Node mongodb e React de front upado no heroku
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
 
-In the project directory, you can run:
+Criando uma ferramenta para upar imagens no banco de dados AWS da amazon.
 
-### `npm start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+![Logo do R](https://lh3.googleusercontent.com/pw/AM-JKLXCYDqTshx4oIlkzkGAB1vUjcfCqXeCZGgNKWuBOOuMBuaTBIk1LbirIcz2uHdhPppkZkdcLSKkl7nXMVGOLQmkLtMnFhpHCBEWXinMm3kqfCbePmKiHcsrF33kWPQ7Qo8BGH3G49_HElNWxJOlaSbwew=w856-h894-no?authuser=0)
 
-### `npm test`
+## Sobre o Autor
+<img align="left" width="190" height="190" margin-right="150px" src="https://lh3.googleusercontent.com/pw/AM-JKLXhmwZXlDQxwQTG3f0HIUpyh4Yg5oyRCR9GZ09GVuaEGe2umH6R6TAYJeJgWCVEKROa7pQgbFVBQEaOwJ3VLGoNpDcTJ1p0yTvwLK0CJf7q9xh7Xnf1sS-vG7temrijQpiRitZC-c9e7THtDNVI5FQPkA=w169-h154-no?authuser=0"> Oi, meu nome é Pedro Savio tenho 22 anos e atualmente faço engenharia mecânica(UFCG). acabei descobrindo um novo mundo na programação e decidi me aprofundar mais nele.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## <br /><br /> <br /><br /><br /><br />Tecnologias utilizadas
+1. React
+2. Express
+3. Node
+4. MongoDb
+5.  AWS
 
-### `npm run build`
+## <br /><br /><br /> Comandos - Frontend
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+ criar a pasta front end e dentro dela criar um projeto react 
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+depois apagar todas as partes desnecessárias instalar os componentes de estilização ;
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+ 	 npm add styled-componentss
 
-### `npm run eject`
+	  npm add react-dropzone
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+  	npm add react-circular-progressbar
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+	  npm add react-icons
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+ 	 npm add lodash
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+	  npm add filesize
 
-## Learn More
+ 	 npm add axios
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+  important lembrar de abrir os dois terminais um para o front e outro para o back
 
-### Code Splitting
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
 
-### Analyzing the Bundle Size
+pra poder ligar o front om o back basta criar a pasta servies e o arquivo api e chamar a url onde seu back esta rodando ('localhost/3000/post')
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+se der erro de cors instale o cors no seu backend:
 
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+  npm add cors
